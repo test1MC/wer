@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PaneLayout>
+  <PaneDock Docked="true">
+    <PaneDockPanel>
+      <PaneDockPanel Dock="Right" Width="329.5">
+        <PaneContainer Dock="Top" Height="397.02" TabStyle="Top">
+          <Pane Name="ProviderExplorer" />
+        </PaneContainer>
+        <PaneContainer TabStyle="Accordion">
+          <Pane Name="FileList" />
+          <Pane Name="PendingCheckIns" />
+        </PaneContainer>
+      </PaneDockPanel>
+      <PaneDockPanel>
+        <PaneDockPanel Dock="Left" Width="320">
+          <PaneContainer Dock="Bottom" Height="436.02" TabStyle="Top">
+            <Pane Name="ProjectExplorer" />
+          </PaneContainer>
+          <PaneContainer TabStyle="Accordion">
+            <Pane Name="ContentExplorer" />
+          </PaneContainer>
+        </PaneDockPanel>
+        <PaneContainer TabStyle="Top">
+          <Pane Name="StartPage" />
+        </PaneContainer>
+      </PaneDockPanel>
+    </PaneDockPanel>
+  </PaneDock>
+</PaneLayout>
